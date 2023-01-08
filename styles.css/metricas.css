@@ -1,0 +1,37 @@
+
+.metricas{
+    display: flex;
+    margin: 0 6em;
+    
+
+
+}
+
+.metricas__item{
+    width: 100vw;
+    padding: 5em 0 0 2em;
+}
+
+.metricas__titulo{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    color: var(--vinho);
+    width: 50%;
+}
+
+.metricas__subtitulo{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: var(--fonte-preta);
+    padding: 0.5em 0;
+}
+
+.metricas__texto{
+    color: var(--fonte-cinza);
+    text-align:left;
+    width: 100%;
+
+
+}

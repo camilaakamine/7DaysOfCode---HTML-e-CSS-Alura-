@@ -1,0 +1,71 @@
+
+.footer{
+    width: 100vw;
+    padding: 5em 0;
+    background-color: var(--background-footer);
+    margin-top: 3em;
+}
+
+.footer__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.footer__titulo{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: var(--fonte-preta);
+}
+
+.footer__texto{
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--fonte-cinza);
+    margin: 1em 0 1.8em 0;
+}
+
+.footer__cadastro{
+    width: 40%;
+
+    
+    
+}
+
+.footer__cadastro-email{
+    width: 65%;
+    padding: 0.8em;
+    border: 1px solid var(--cinza-claro);
+    border-radius: 5px;
+    color: var(--fonte-preta);
+    margin-left: 3.5em;
+
+
+}
+
+.footer__cadastro-email::placeholder{
+    color: var(--fonte-cinza)
+}
+
+.footer__cadastro-botao {
+    background-color: var(--vinho);
+    border-radius: 8px;
+    color: var(--branco);
+    border: 1px solid var(--vinho);
+    padding: 0.8em 1em;
+    margin-left: 1em;
+    
+}
+
+.footer__cadastro-botao:hover{
+    color: var(--vinho);
+    background-color: transparent;
+    transition: 0.1s;
+}
+
+.footer__copyright{
+    color: var(--fonte-copyright);
+    margin-top: 2em;
+}

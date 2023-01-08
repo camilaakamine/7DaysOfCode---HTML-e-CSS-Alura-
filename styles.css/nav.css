@@ -1,0 +1,77 @@
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.menu__logo{
+    margin: 0.5em 0.5em 0 8em;
+}
+
+.menu__nomeEmpresa{
+    margin-top: 0.5em;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-nome-empresa)
+
+}
+
+.menu__lista{
+    display: flex;
+    margin-top: 0.5em;
+    margin-right: 10em;
+}
+
+.menu__lista-item{
+    margin: 1.3em;
+}
+
+.menu__lista-link{
+    text-decoration: none;
+    color: var(--fonte-cinza);
+    font-weight: 500;
+}
+
+.menu__lista-link:hover{
+    color: var(--vinho);
+}
+
+.botoes__ancora{
+    display: flex;
+    margin: 1em 8em 0 1em;
+}
+
+.botao__ancora-item{
+    justify-content: flex-end;
+    padding: 1em;
+    font-weight: 500;
+    color: var(--fonte-cinza);
+    text-decoration: none;
+}
+
+.botao__ancora-decorado{
+    color: var(--branco);
+    background-color: var(--vinho);
+    border: 1px solid var(--vinho);
+    border-radius: 8px;
+    width: 50%;
+    padding: 1em 1.5em;
+    
+}
+
+.botao__ancora-decorado:hover{
+    color: var(--vinho);
+    background-color: transparent;
+    transition: 0.1s;
+}
+
+@media screen and (max-width:1218px){
+    .menu__lista{
+        display: none;
+    }
+}

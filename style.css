@@ -1,0 +1,29 @@
+@import url(./styles.css/nav.css);
+@import url(./styles.css/header.css);
+@import url(./styles.css/metricas.css);
+@import url(./styles.css/card.css);
+@import url(./styles.css/main.css);
+@import url(./styles.css/footer.css);
+
+
+:root{
+    --fonte-principal: "Inter";
+    --vinho:#8E2424;
+    --branco: #FFFFFF;
+    --cor-nome-empresa:#3A404E;
+    --fonte-cinza:#667085;
+    --fonte-preta:#101828;
+    --background-vinho-claro-degrade:rgba(142, 36, 36, 0.05);
+    --cinza-claro: #EAECF0;
+    --background-footer: #F9FAFB;
+    --fonte-copyright: #98A2B3;
+}
+
+body{
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--branco);
+    line-height: 24px;
+}
+
